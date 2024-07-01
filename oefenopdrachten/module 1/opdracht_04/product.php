@@ -16,13 +16,13 @@ class Product
     }
 }
 
-$game1 = new Product();
+$game1 = new Product("");
 $game1->setName( name: "doom eternal"); 
 
 $game1->name = "doom eternal";
 $game1->price = 49;
 
-$game2 = new Product();
+$game2 = new Product("");
 $game2->name = "doom 64";
 $game2->price = 10;
 
